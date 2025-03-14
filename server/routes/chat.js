@@ -1,5 +1,5 @@
 import express from "express";
-import model from "../../models/openai.js";
+import model from "../../models/huggingface.js";
 import { searchDocuments } from "../../retriever/qdrant.js";
 
 const router = express.Router();
